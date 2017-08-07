@@ -1,7 +1,7 @@
 # gulp-html-import
 主要用于学习gulp的工作原理  
 实现功能：导入公共HTML的插件  
-使用：下载该项目解压到node_module文件夹里面,文件夹名字这里叫html-import
+使用：下载该项目解压到node_modules文件夹里面,文件夹名字这里叫html-import
 
 HTML：
 ```
