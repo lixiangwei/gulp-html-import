@@ -13,10 +13,10 @@ HTML：
 gulpfile：
 ```
 var gulp = require('gulp');
-var test = require('html-import');
+var htmlImport = require('html-import');
 gulp.task('html', function() {
     return gulp.src(['./*.html'])
-               .pipe(test())
+               .pipe(htmlImport())
                .pipe(gulp.dest('./dist/'));
 });
 ```
